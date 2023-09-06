@@ -2,6 +2,7 @@ from django.db import models
 
 class Post(models.Model):
 
+    user = models.ForeignKey("users.CustomUser", on_delete=models.CASCADE)
     title = models.CharField("Title", max_length=70)    
     description = models.TextField("Description", max_length=1024)
     date_time = models.DateField("Post date", null=True, blank=True)

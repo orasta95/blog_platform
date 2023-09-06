@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
 
 from ..models import Post, Comments
-from ..serializers import PostSerializer, PostCreateSerializer, PostUpdateSerializer, CommentCreateSerializer, CommentUpdateSerializer, CommentSerializer
+from ..serilizers import PostSerializer, PostCreateSerializer, PostUpdateSerializer, CommentCreateSerializer, CommentUpdateSerializer, CommentSerializer
 
 
 
